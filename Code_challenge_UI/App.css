@@ -1,0 +1,55 @@
+.heading {
+    background-color: #000000; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.form-label {
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="number"]
+{
+    margin-bottom: 15px;
+    border: 2px solid #333; 
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+textarea {
+   border: 2px solid #333; 
+    border-radius: 5px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;              
+    margin: 15px 0;       
+}
+
+.search-bar input {
+    max-width: 150px;
+    flex-shrink: 0;       
+}
+
+.search-bar button {
+    flex-shrink: 0;     
+}
+
+.add_form{
+    padding: 70px;
+}
+
+
